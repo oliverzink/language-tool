@@ -1,1 +1,1 @@
-# language-tool
+# building a chrome extension that switches out random words on any website for the foreign language translation. the goal is for language learning to be much more natural and seamless with normal life/web browsing. 
