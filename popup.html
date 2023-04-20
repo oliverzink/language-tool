@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Click me</title>
+    </head>
+    <style type="text/css">
+    body {
+        margin: 5px;
+    }
+    h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+    </style>
+    <body>
+        <select name="pets" id="pet-select">
+            <option value="en">Dog</option>
+            <option value="es">Cat</option>
+            <option value="es">Hamster</option>
+            <option value="es">Parrot</option>
+            <option value="es">Spider</option>
+            <option value="es">Goldfish</option>
+        </select>
+        <button id="button1" onclick="myfunction()">Click me</button>
+        <h1 id="yo">yo</h1>
+    </body>
+    <script>
+      function myfunction(){
+        document.getElementById('yo').innerHTML = 'ya';
+
+      }
+    </script>
+</html>

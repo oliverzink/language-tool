@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-            "watch": true
-
+            "watch": true,
+            "types": ["chrome"]
     }
 }
